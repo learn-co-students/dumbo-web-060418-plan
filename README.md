@@ -1,19 +1,17 @@
-# Dumbo Web 060418 Project Mode Schedule
+# Project Mode Schedule
 
-|           | [_Wednesday_](#Wednesday)                 | [_Thursday_](#Thursday)  | [_Friday_](#Friday)        | [_Monday_](#Monday)    |
-| --------- | ----------------------------------------- | ------------------------ | -------------------------- | ---------------------- |
-| Morning   | **Code Challenge** React  (90mins)        | **Standup**              | **Standup**                | **Group** Project Mode |
-|           | **Get Groups!**                           | **Group** Project Planning   | **Group** Project Mode     |                        |
-| Afternoon | **Group** Project Ideation                |                          | **LUNCH**                  |                        |
-|           | **Group** Project Pitches                 |                          |                            |                        |
-| Evening   | **Group** Project Planning                |                          | **Feelings**               | **Group** Project Mode |
+|           | [_Wednesday_](#Wednesday)     | [_Thursday_](#Thursday)  | [_Friday_](#Friday) | [_Monday_](#Monday)    |
+| --------- | ----------------------------- | ------------------------ | ------------------- | ---------------------- |
+| Morning   | React Code Challenge (90mins) | **Standup**              | **Standup**         | Project Mode           |
+|           | Get Groups                    | Project Planning         | Project Mode        |                        |
+| Afternoon | Project Ideation              |  **Lunch**               | **Lunch**           |                        |
+|           | Project Pitches               |  Project Mode            |                     |                        |
+| Evening   | Project Planning              |  Project Mode            | **Feelings**        | Project Mode           |
 
-Here's a little schedule for August 15-20.
-
-## Wednesday
+## Wednesday 8/15
 
 #### Code Challenge
-  * 90m minutes
+  * 90 minutes
   * Will be graded and given feedback before 3pm
   * You got this!
 
@@ -47,10 +45,10 @@ Here's a little schedule for August 15-20.
 #### So long
 ![Alt Text][bye]
 
-## Thursday
+## Thursday 8/16
 
 #### Morning Standup
-At 9:15 please gather as a group to do standup. Each group should give a two sentence overview of what their app does. Use this as a time to solicit help or ask the group questions. Everyone will be facing similar issues during the first few days of the project. 
+At 9:15 please gather as a group to do standup. Each group should give a two sentence overview of what their app does. Use this as a time to solicit help or ask the group questions. Throughout the day if you run into problems, slack your classmates. Everyone will be facing similar issues during the first few days of the project. 
 
 ##### Standup Q's:
   * What's the last feature you worked on?
@@ -86,7 +84,7 @@ Build cool things!
 [bye]: https://media0.giphy.com/media/TBuAgAgXXvPMY/giphy.gif
 [hi]: https://media1.giphy.com/media/l1J9urAfGd3grKV6E/giphy.gif
 
-# Dumbo Web 060418 Project Mode Tips
+# Project Mode Tips
 
 ## One Big Rule
 The biggest advice we can give you for project mode is to scope your project idea down! Make the tiniest MVP possible and have a lot of stretch goals. Build new features onto your MVP iteratively. That is the way to build a great product.
@@ -103,7 +101,6 @@ The biggest advice we can give you for project mode is to scope your project ide
 You've been through quite a few Project Modes by now and should have some idea how to think about scoping a project, what you can accomplish in a the designated time, and what is expected of you in terms of meeting complexity requirements.
 
 The guidelines here are minimal but be sure that you:
-
 1. Use a _Rails API backend_ with a separate _React frontend_ that are created in two different Github repositories.
 2. Have at least three resources on the backend and your application must have full CRUD actions for at least one resource.
 3. React Router is not required. You can build a single-page application.
@@ -111,7 +108,7 @@ The guidelines here are minimal but be sure that you:
 
 #### How to sign in a user
 * Have a user sign in on the frontend
-* Send this information to the backend
+* Send this information (email or username) to the backend
 * In your Rails controller find the matching user and sent back to your frontend. (Figure out how you want to handle errors if a user is not found in your database.)
 * Save this user into React state
 
@@ -127,7 +124,6 @@ Example: A user clicks a button that says 'Get Gifs'
 * React receives the response from Rails and you do something with it on the client
 
 This is so you can avoid any *CORS* issues. If you are unable to hit an API from your React app due to a CORS restriction, it is very likely that it is impossible to do so. _Brief Refresher on CORS: the idea is that from one domain (the port your webpack development server is running on) you are not allowed to access another domain.  You must make the request from a server (i.e. Rails), so the request is exempt from the Same-Origin Policy restriction._
-
 
 #### Backend Setup
 ```
