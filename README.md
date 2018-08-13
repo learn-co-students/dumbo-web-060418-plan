@@ -1,12 +1,12 @@
 # Project Mode Schedule
 
-|           | [_Wednesday_](#Wednesday)     | [_Thursday_](#Thursday)  | [_Friday_](#Friday) | [_Monday_](#Monday)    |
-| --------- | ----------------------------- | ------------------------ | ------------------- | ---------------------- |
-| Morning   | React Code Challenge (90mins) | **Standup**              | **Standup**         | Project Mode           |
-|           | Get Groups                    | Project Planning         | Project Mode        |                        |
-| Afternoon | Project Ideation              |  **Lunch**               | **Lunch**           |                        |
-|           | Project Pitches               |  Project Mode            |                     |                        |
-| Evening   | Project Planning              |  Project Mode            | **Feelings**        | Project Mode           |
+|           | [_Wednesday_](#Wednesday)     | [_Thursday_](#Thursday) | [_Friday_](#Friday) | [_Monday_](#Monday) |
+| --------- | ----------------------------- | ----------------------- | ------------------- | ------------------- |
+| Morning   | React Code Challenge (90mins) | **Standup**             | **Standup**         | Project Mode        |
+|           | Get Groups                    | Project Planning        | Project Mode        | Project Mode        |
+| Afternoon | Project Ideation              | **Lunch**               | **Lunch**           | **Lunch**           |
+|           | Project Pitches               | Project Mode            | Project Mode        | Project Mode        |
+| Evening   | Project Planning              | Project Mode            | **Feelings**        | Project Mode        |
 
 ## Wednesday 8/15
 
@@ -85,6 +85,7 @@ Build cool things!
 [hi]: https://media1.giphy.com/media/l1J9urAfGd3grKV6E/giphy.gif
 
 # Project Mode Tips
+## Project Demos are Wednesday Afternoon 8/22!!!!
 
 ## One Big Rule
 The biggest advice we can give you for project mode is to scope your project idea down! Make the tiniest MVP possible and have a lot of stretch goals. Build new features onto your MVP iteratively. That is the way to build a great product.
